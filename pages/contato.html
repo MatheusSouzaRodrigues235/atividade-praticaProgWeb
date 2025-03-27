@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<body>
+
+<!--Barra de navegação-->    
+<div class="topnav">
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./sobremim.html">Sobre mim </a></li>
+      <li><a href="./formacaoEducacional.html">Formação educacional</a></li>
+      <li><a href="./projetos.html">Projetos</a></li>
+      <li><a href="./contato.html">Contatos</a></li>
+      
+    </ul>
+    </div>
+
+<h1 style="text-align: center; padding-bottom: 6%; padding-top: 3%; font-size: 50px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Contato</h1>
+
+<!-- Formulario de contato para email-->
+
+  <div class="form-contato">
+    <form id="form-contatos">
+      <label for="nome">Nome</label>
+      <input type="text"  id="name"  required placeholder="Digite seu nome completo">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" id="email" required placeholder="Digite seu email">
+      <label for="mensagem">Mensagem</label><br>
+      <textarea name="mensagem"  id="message" rows="5"  placeholder="Envie sua mensagem aqui ..."></textarea><br>
+      <button type="submit" >Enviar</button>
+    </form>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="../scripts.js"></script>
+</body>
+</html>

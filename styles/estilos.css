@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Gallery Styles */
+
+
+.gallery-projects{
+  
+  margin-left: 5%;
+  border: 1px solid   #ccc;
+  float: left;
+  width: 500px;
+ 
+}
+ .galleryEducacional {
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+}
+.gallery-projects:hover, .galleryEducacional:hover {
+    border: 1px solid #777;
+}
+.gallery-projects img, .galleryEducacional img {
+    width: 100%;
+}
+
+/* Description Styles */
+.descricao {
+    background-color: #272727;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+/* Form Styles -> Contato.html */
+.form-contato {
+    max-width: 600px;
+    padding-left: 30px;
+    background-color: #ada7a7;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border: #4CAF50 2px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    margin: auto;
+}
+.form-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.form-contato input, .form-contato textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 8px;
+}
+.form-contato button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+}
+
+/* Section Styles */
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #eee4e4;
+    height: 50%;
+}
+article p {
+    font-size: 30px;
+}
+
+section img {
+    float: left;
+    width:50%;
+    height: 300px;
+    background: #ccc;
+    padding: 20px;
+}
+/* Header Styles */
+header {
+  margin-top: 30px;
+  background-color: #332c2c;
+  padding: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Text Styles */
+p {
+    font-size: 25px;
+}
+
+.topnav{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topnav ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+.topnav li {
+  float: left;
+}
+ .topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ } 
+  .topnav li a:hover {
+    background-color: #a54c4c;
+  }
+  
+  .active {
+    background-color: #cc4e4e;
+  }
+  .links-active {
+    
+    background-color: #5e5757;
+  }
+  .links {
+   align-items: center;
+   display: flex;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -7%;
+   justify-content: center;
+   padding-top: 5%;
+  }
+  .links a {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left:5%;
+    border-radius: 10px;
+    
+  }
+  .links a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
